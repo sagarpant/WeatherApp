@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/ApiBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Qeury"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"/>
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:id="@+id/City_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Name, Country"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Descriptiton_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Weather Description"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Humidity_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Humidity"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Temperature_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Temperature"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/Windspeed_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City Windspeed"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>
