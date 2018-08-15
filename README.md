@@ -11,8 +11,8 @@ Basic Weather application.<br>
 2) <strong>Customizing the app for further usage<br></strong>
       a)    Latitude, Longitude, Min, Max temperature, pressure etc can be displayed as they are also returned in the httpresponse.<br>
       b)    Just create similar textviews for displaying them as well.<br>
-      c)    Error handling. When user hits query button wihtout entering the city name, the app crashes.(Check whether the edittext <br>
-            is empty & make appropriate toast message).<br>
+      c)    Error handling. When user hits query button wihtout entering the city name, the app crashes.(Check whether the<br> <br>
+            edittext is empty & make appropriate toast message).<br>
 
 
 The app uses the open weather api. Use your personal api key and update it in the api key section.<br>
